@@ -5,17 +5,17 @@ import right from "../assets/right-circle.svg";
 
 const BtnCircleControl = () => {
   return (
-    <div class="grid-container">
-      <div class="item1">
+    <div className="grid-container">
+      <div className="item1">
         <img className="p-2 w-16" src={up} alt="" />
       </div>
-      <div class="item2">
+      <div className="item2">
         <img className="p-2 w-16" src={left} alt="" />
       </div>
-      <div class="item3">
+      <div className="item3">
         <img className="p-2 w-16" src={right} alt="" />
       </div>
-      <div class="item4">
+      <div className="item4">
         <img className="p-2 w-16" src={down} alt="" />
       </div>
     </div>
