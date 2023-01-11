@@ -3,15 +3,19 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://juanvaquiro.github.io/",
   "repository": "https://github.com/JuanVaquiro/JuanVaquiro.github.io",
   "author": "JuanVaquiro <juanvaquiro99@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.6.2"
