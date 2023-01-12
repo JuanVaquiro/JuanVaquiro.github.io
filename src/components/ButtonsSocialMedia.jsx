@@ -34,7 +34,7 @@ const BtnMedia = () => {
         target="_blank"
         rel="noopener noreferrer"
         type="button"
-        className="flex gap-2 text-red-400 hover:text-white border border-red-400 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-red-400 dark:text-red-400 dark:hover:text-white dark:hover:bg-orange-700 dark:focus:ring-orange-900"
+        className="flex gap-2 text-red-400 hover:text-white border border-red-400 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-orange-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:border-red-400 dark:text-red-400 dark:hover:text-white dark:hover:bg-orange-500 dark:focus:ring-orange-900"
       >
         <img src={Instagram} alt="logo instagram" />
         Instagram

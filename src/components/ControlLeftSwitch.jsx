@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Minus from "../assets/minus-circle.svg";
-import BtnCircleControl from "./BtnCircleControl";
+import joystick from "../assets/joystick-direction.svg";
 
 const ControlLeftSwitch = () => {
   return (
@@ -11,21 +11,22 @@ const ControlLeftSwitch = () => {
           src={Minus}
           alt="logo-minus-circle"
         />
-        <ul className="flex flex-col gap-2 m-8 text-center">
+        <ul className="flex flex-col gap-2 m-8 text-center text-slate-900">
           <Link to="/">
-            <li className="underline underline-offset-4" >Inicio</li>
+            <li className="underline underline-offset-4">Inicio</li>
           </Link>
           <Link to="/experiencia">
-            <li className="underline underline-offset-4" >Experiencia</li>
+            <li className="underline underline-offset-4">Experiencia</li>
           </Link>
           <Link to="/proyecto">
-            <li className="underline underline-offset-4" >Proyecto</li>
+            <li className="underline underline-offset-4">Proyecto</li>
           </Link>
-          <li className="underline underline-offset-4" >Contacto</li>
+          <Link to="/contacto">
+            <li className="underline underline-offset-4">Contacto</li>
+          </Link>
         </ul>
-
-        <BtnCircleControl />
       </div>
+      <img src={joystick} alt="" />
     </div>
   );
 };
