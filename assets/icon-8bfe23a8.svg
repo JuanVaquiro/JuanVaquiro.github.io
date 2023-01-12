@@ -4,7 +4,7 @@
 		<image fill="#64748b" color="blue" width="216" height="216" id="img1" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IS0tIFVwbG9hZGVkIHRvOiBTVkcgUmVwbywgd3d3LnN2Z3JlcG8uY29tLCBHZW5lcmF0b3I6IFNWRyBSZXBvIE1peGVyIFRvb2xzIC0tPgo8c3ZnIHdpZHRoPSI4MDBweCIgaGVpZ2h0PSI4MDBweCIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgPGc+CiAgICAgICAgPHBhdGggZmlsbD0ibm9uZSIgZD0iTTAgMGgyNHYyNEgweiIvPgogICAgICAgIDxwYXRoIGQ9Ik0yNCAxMmwtNS42NTcgNS42NTctMS40MTQtMS40MTRMMjEuMTcyIDEybC00LjI0My00LjI0MyAxLjQxNC0xLjQxNEwyNCAxMnpNMi44MjggMTJsNC4yNDMgNC4yNDMtMS40MTQgMS40MTRMMCAxMmw1LjY1Ny01LjY1N0w3LjA3IDcuNzU3IDIuODI4IDEyem02Ljk2IDlINy42Nmw2LjU1Mi0xOGgyLjEyOEw5Ljc4OCAyMXoiLz4KICAgIDwvZz4KPC9zdmc+"/>
 	</defs>
 	<style>
-		.s0 { fill: #64748b } 
+		.s0 { fill: #000 } 
 	</style>
 	<g id="Layer">
 		<path id="Layer" fill-rule="evenodd" class="s0" d="m385.1 229.1c2.4-0.2 4.6 1.5 4.9 3.9 0.2 2.4-1.5 4.6-3.9 4.9l-23.5 2.6v6.4c0 3.5-1.4 6.9-3.8 9.3-2.5 2.5-5.9 3.9-9.3 3.9h-45.8c-7.3 0-13.1-5.9-13.1-13.2v-4.9h-23.6v4.9c0 7.3-5.8 13.2-13.1 13.2h-45.8c-7.3 0-13.2-5.9-13.2-13.2v-24.8c0-7.3 5.9-13.1 13.2-13.1h45.8c7.3 0 13.1 5.8 13.1 13.1v11.2l23.6-0.1v-11.2c0-3.4 1.3-6.8 3.8-9.3 2.5-2.4 5.8-3.8 9.3-3.8h45.8c3.4 0 6.8 1.4 9.3 3.8 2.4 2.5 3.8 5.9 3.8 9.3v9.7l22.5-2.5zm-126.8-7.1c0-1.1-0.5-2.3-1.3-3.1-0.8-0.8-1.9-1.3-3.1-1.3h-45.8c-2.5 0-4.4 2-4.4 4.4v24.9c0 2.4 1.9 4.3 4.4 4.3h45.8c1.1 0 2.2-0.4 3.1-1.2 0.8-0.9 1.2-2 1.2-3.1zm95.6 0c0-1.2-0.5-2.3-1.3-3.2-0.8-0.8-2-1.2-3.1-1.2h-45.8c-1.1 0-2.3 0.4-3.1 1.2-0.8 0.9-1.3 2-1.3 3.2v24.8c0 2.4 2 4.4 4.4 4.4h45.8c1.1 0 2.3-0.4 3.1-1.3 0.8-0.8 1.3-1.9 1.3-3.1z"/>
