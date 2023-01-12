@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Plus from "../assets/plus-circle.svg";
-import BtnCircleControl from "./BtnCircleControl";
+import icon from "../assets/icon.svg"
+import btnsCr from "../assets/btns-cR.png"
+
 
 function ControlRihgtSwicth() {
   const CONTROL = document.querySelector("plus");
@@ -39,8 +41,9 @@ function ControlRihgtSwicth() {
           src={Plus}
           alt="logo-minus-circle"
         />
-        <BtnCircleControl />
-    
+  
+      <img className="p-9" src={btnsCr} alt="" />
+      <img className="p-8" src={icon} alt="" />
       </div>
     </div>
   );
