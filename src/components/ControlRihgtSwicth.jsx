@@ -1,8 +1,7 @@
 import { useState } from "react";
 import Plus from "../assets/plus-circle.svg";
-import icon from "../assets/icon.svg"
-import btnsCr from "../assets/btns-cR.png"
-
+import icon from "../assets/icon.svg";
+import btnsCr from "../assets/btns-cR.png";
 
 function ControlRihgtSwicth() {
   const CONTROL = document.querySelector("plus");
@@ -33,19 +32,25 @@ function ControlRihgtSwicth() {
   const handleClick = () => {};
 
   return (
-    <div className="control-r w-48 border-red-600 bg-red-500">
-      <div>
+    <section className="control-r w-48 border-red-600 bg-red-500">
+      <div className="flex flex-col items-center justify-center">
         <img
           onClick={handleClick}
-          className="plus w-14 p-1 mt-7 ml-4 cursor-pointer"
+          className="plus w-14 p-1 mt-7 mr-24 cursor-pointer"
           src={Plus}
           alt="logo-minus-circle"
         />
-  
-      <img className="p-9" src={btnsCr} alt="" />
-      <img className="p-8" src={icon} alt="" />
+        <img className="p-9" src={btnsCr} alt="botones-de-control" />
+        <img className="p-8" src={icon} alt="logo" />
+        <a
+          href="https://drive.google.com/file/d/1d4J8t_tNIJigfqg1MB-zNq3tT1WFC3XR/view?usp=sharing/"
+          target="_blank"
+          className="text-lg text-slate-900 hover:underline hover:underline-offset-8"
+          >
+          Ver Curriculum
+        </a>
       </div>
-    </div>
+    </section>
   );
 }
 
