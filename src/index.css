@@ -58,3 +58,29 @@ video{
   border-top-right-radius: 70px;
   border-bottom-right-radius: 70px;
 }
+
+/* cart-project */
+#GifApp{
+  background-image: url("./assets/gifApp.png");
+}
+#CiclaMundo{
+  background-image: url("./assets/ciclasmundo.png");
+}
+#ColombiaTKD{
+  background-image: url("./assets/colombiaTKD.png");
+}
+#SkyMotion{
+  background-image: url("./assets/Skymotion.png");
+}
+#BoxMario{
+  background-image: url("./assets/box-mario.png");
+}
+#top1{
+  top: 80px;
+}
+#top2{
+  top: 250px;
+}
+#top3{
+ display: contents;
+}
