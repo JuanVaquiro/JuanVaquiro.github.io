@@ -76,10 +76,10 @@ video{
   background-image: url("./assets/box-mario.png");
 }
 #top1{
-  top: 80px;
+  top: 64px;
 }
 #top2{
-  top: 250px;
+  top: 240px;
 }
 #top3{
  display: contents;
