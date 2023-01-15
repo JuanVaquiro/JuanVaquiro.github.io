@@ -1,5 +1,5 @@
 import React from "react";
-import Gitgub from "../assets/github.svg"
+import Gitgub from "../assets/social-media/github.svg";
 
 const CartProyect = ({ title, img, text, url, repo, top }) => {
   return (
@@ -11,25 +11,22 @@ const CartProyect = ({ title, img, text, url, repo, top }) => {
         title={`ver ${title}`}
         rel="preload"
       >
-        <h3 className="z-10 text-white text-base xl:text-lg">
-          {title}
-        </h3>
-        <p className="z-10 text-slate-200">
-            {text}
-        </p>
-       
-        <div    
+        <h3 className="z-10 text-white text-base xl:text-lg">{title}</h3>
+        <p className="z-10 text-slate-300">{text}</p>
+
+        <div
           id={img}
-          className="z-0 absolute inset-0 opacity-20 bg-center bg-[size:150%] group-hover:bg-[size:200%] transition"
+          className="z-0 absolute inset-0 opacity-30 bg-sky-600 bg-center bg-[size:150%] group-hover:bg-[size:200%] transition"
         ></div>
-        </a>
-        <a
+      </a>
+      <a
         href={repo}
+        title="repositorio"
         target="_blank"
         rel="noopener noreferrer"
         type="button"
         id={top}
-        className="z-50 fixed text-purple-700 hover:text-white border border-purple-700 hover:bg-purple-800 focus:ring-4 focus:outline-none focus:ring-purple-300 font-medium rounded-lg text-sm px-1 py-2.5 text-center mr-2 mb-2 dark:border-purple-400 dark:text-purple-400 dark:hover:text-white dark:hover:bg-purple-500 dark:focus:ring-purple-900"
+        className="z-50 fixed text-sky-700 hover:text-white  border border-sky-700 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-bl-2xl rounded-b-2xl  text-sm px-1 py-2.5 text-center mr-2 mb-2 dark:border-sky-500 dark:text-sky-400 dark:hover:text-white dark:hover:bg-sky-500 dark:focus:ring-sky-900"
       >
         <img src={Gitgub} alt="logo github" />
       </a>

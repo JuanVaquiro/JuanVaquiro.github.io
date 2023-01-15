@@ -1,8 +1,8 @@
 import { Fragment } from "react";
-import Linkedin from "../assets/linkedin.svg";
-import Twitter from "../assets/twitter.svg";
-import Instagram from "../assets/instagram.svg";
-import Gitgub from "../assets/github.svg";
+import Linkedin from "../assets/social-media/linkedin.svg";
+import Twitter from "../assets/social-media/twitter.svg";
+import Instagram from "../assets/social-media/instagram.svg";
+import Gitgub from "../assets/social-media/github.svg";
 
 const BtnMedia = () => {
   return (

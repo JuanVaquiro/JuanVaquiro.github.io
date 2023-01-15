@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import Minus from "../assets/minus-circle.svg";
-import joystick from "../assets/joystick-direction.svg";
+import Minus from "../assets/controll/minus-circle.svg";
+import joystick from "../assets/controll/joystick-direction.svg";
 
 const ControlLeftSwitch = () => {
   return (
@@ -11,7 +11,7 @@ const ControlLeftSwitch = () => {
           src={Minus}
           alt="logo-minus-circle"
         />
-        <div className="p-4">
+        <div className="px-4">
           <ul className="flex flex-col gap-2 m-8 text-center text-slate-900">
             <Link to="/">
               <li className="text-lg hover:underline hover:underline-offset-8">

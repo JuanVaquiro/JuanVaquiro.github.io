@@ -1,6 +1,5 @@
 import BtnMedia from "./ButtonsSocialMedia";
 import video from "../assets/bg-video.mp4";
-import nintendo from "../assets/prg-nintendo.png";
 
 function ScreenConte() {
   return (
@@ -14,7 +13,7 @@ function ScreenConte() {
           <h1 className="text-white text-center font-black text-6xl p-2">
             Juan David Vaquiro Diaz
           </h1>
-          <span className="text-lime-600 font-title font-black text-4xl p-2">
+          <span className="text-sky-600 font-title font-black text-4xl p-2">
             Front-end Developer Web Junior
           </span>
           <p className="text-lg text-center p-2 max-w-prose">

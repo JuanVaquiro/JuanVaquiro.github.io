@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Plus from "../assets/plus-circle.svg";
+import Plus from "../assets/controll/plus-circle.svg";
 import icon from "../assets/icon.svg";
-import btnsCr from "../assets/btns-cR.png";
+import btnsCr from "../assets/controll/btns-cR.png";
 
 function ControlRihgtSwicth() {
   const CONTROL = document.querySelector("plus");
