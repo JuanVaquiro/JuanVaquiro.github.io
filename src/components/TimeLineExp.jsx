@@ -115,7 +115,7 @@ function TimeLineExp() {
         De Octubre del 2021 A Diciembre del 2021
         </time>
         <p className="max-w-custom mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-          Proyecto MisionTic 2022 en conjunto con la Universidad de Antioquia de Medellín. Analizar, diseñar y construir una aplicación web que gestione proyectoss de investigacion.
+          Proyecto MisionTic 2022 en conjunto con la Universidad de Antioquia de Medellín. Analizar, diseñar y construir una aplicación web que gestione proyectos de investigación.
         </p>
       </li>
     </ol>
