@@ -29,7 +29,7 @@ video{
   width: 100%;
   height: 100%;
   object-fit: cover;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .content{
   position: absolute;
@@ -61,26 +61,121 @@ video{
 
 /* cart-project */
 #GifApp{
-  background-image: url("./assets/gifApp.png");
+  background-image: url("./assets/project-capture/gifApp.png");
 }
 #CiclaMundo{
-  background-image: url("./assets/ciclasmundo.png");
+  background-image: url("./assets/project-capture/ciclasmundo.png");
 }
 #ColombiaTKD{
-  background-image: url("./assets/colombiaTKD.png");
+  background-image: url("./assets/project-capture/colombiaTKD.png");
 }
 #SkyMotion{
-  background-image: url("./assets/Skymotion.png");
+  background-image: url("./assets/project-capture/Skymotion.png");
 }
 #BoxMario{
-  background-image: url("./assets/box-mario.png");
+  background-image: url("./assets/project-capture/question.svg");
 }
 #top1{
-  top: 64px;
+  top: 65px;
 }
 #top2{
   top: 240px;
 }
 #top3{
  display: contents;
+}
+
+@media (min-height: 700px) {
+  #top1{
+    top: 140px;
+  }
+  #top2{
+    top: 314px;
+  }
+}
+
+
+/* text witch page-experince */
+.max-w-custom{
+  max-width:  75ch;
+}
+
+/* Burbujas */
+.burbuja{
+  /* opacity: 0.5; */
+  position: absolute;
+  animation: burbujas 1s linear infinite;
+}
+.burbuja:nth-child(1){
+  width: 48px;
+  height: 48px;
+  top: 20%;
+  left: 70%;
+  animation-duration: 3s;
+  animation-delay: 7s;
+}
+.burbuja:nth-child(2){
+  width: 48px;
+  height: 48px;
+  top: 53%;
+  left: 60%;
+  animation-duration: 5s;
+  animation-delay: 8s;
+}
+.burbuja:nth-child(3){
+  width: 48px;
+  height: 48px;
+  top: 80%;
+  left: 72%;
+  animation-duration: 8s;
+  animation-delay: 5s;
+}
+.burbuja:nth-child(4){
+  width: 48px;
+  height: 48px;
+  top: 33%;
+  left: 63%; 
+  animation-duration: 9s;
+  animation-delay: 6s;
+}
+.burbuja:nth-child(5){
+  width: 48px;
+  height: 48px;
+  top: 36%;
+  left: 78%;
+  animation-duration: 7s;
+  animation-delay: 6s;
+}
+.burbuja:nth-child(6){
+  width: 48px;
+  height: 48px;
+  top: 48%;
+  left: 75%;
+  animation-duration: 6s;
+  animation-delay: 4s;
+}
+.burbuja:nth-child(7){
+  width: 48px;
+  height: 48px;
+  top: 68%;
+  left: 75%;
+  animation-duration: 6s;
+  animation-delay: 5s;
+}
+
+@keyframes burbujas{
+  0%{
+    bottom: 0;
+    opacity: 0;
+  }
+  30%{
+    transform: translate(30px);
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    bottom: 100vh;
+    opacity: .4;
+  }
 }
