@@ -4,7 +4,7 @@ import Minus from "../assets/controll/minus-circle.svg";
 import joystick from "../assets/controll/joystick-direction.svg";
 
 const ControlLeftSwitch = () => {
-  const [color, setcolor] = useState('sky')
+  const [color, setcolor] = useState('sky-L')
 
   const COLOR_HEX = [
     'red-L',
