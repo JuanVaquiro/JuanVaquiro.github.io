@@ -1,13 +1,31 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Minus from "../assets/controll/minus-circle.svg";
 import joystick from "../assets/controll/joystick-direction.svg";
 
 const ControlLeftSwitch = () => {
+  const [color, setcolor] = useState('sky')
+
+  const COLOR_HEX = [
+    'red-L',
+    'sky-L',
+    'lime-L',
+    'yellow-L',
+    'purple-L',
+    'slate-L'
+  ];
+
+  const handleClick = () => {
+    const aleatorio = COLOR_HEX[Math.floor(Math.random() * COLOR_HEX.length)];
+    setcolor(aleatorio)
+  };
+
   return (
-    <section className="control-l w-48 border-sky-600 bg-sky-500">
+    <section id={color}>
       <div className="flex flex-col items-center justify-center">
         <img
-          className="w-14 p-1 mt-7 ml-24"
+          onClick={handleClick}
+          className="w-14 p-1 mt-7 ml-24 cursor-pointer"
           src={Minus}
           alt="logo-minus-circle"
         />

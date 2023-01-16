@@ -4,35 +4,24 @@ import icon from "../assets/icon.svg";
 import btnsCr from "../assets/controll/btns-cR.png";
 
 function ControlRihgtSwicth() {
-  const CONTROL = document.querySelector("plus");
+  const [color, setcolor] = useState('red')
 
   const COLOR_HEX = [
-    0,
-    1,
-    2,
-    3,
-    4,
-    5,
-    6,
-    7,
-    8,
-    9,
-    "A",
-    "B",
-    "C",
-    "D",
-    "E",
-    "F",
+    'red',
+    'sky',
+    'lime',
+    'yellow',
+    'purple',
+    'slate'
   ];
 
-  function randomColorHex() {
-    return Math.floor(Math.random() * COLOR_HEX.length);
-  }
-
-  const handleClick = () => {};
+  const handleClick = () => {
+    const aleatorio = COLOR_HEX[Math.floor(Math.random() * COLOR_HEX.length)];
+    setcolor(aleatorio)
+  };
 
   return (
-    <section className="control-r w-48 border-red-600 bg-red-500">
+    <section id={color}>
       <div className="flex flex-col items-center justify-center">
         <img
           onClick={handleClick}
