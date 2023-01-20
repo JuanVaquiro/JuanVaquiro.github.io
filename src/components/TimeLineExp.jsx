@@ -2,12 +2,12 @@ import React from "react";
 
 function TimeLineExp() {
   return (
-    <ol className="relative border-l border-gray-200 dark:border-gray-700">
+    <ol className="relative border-l border-slate-600">
       <li className="ml-6">
-        <span className="absolute flex items-center justify-center w-6 h-6 bg-sky-600 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-sky-600">
+         <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-slate-600 bg-sky-500">
           <svg
             aria-hidden="true"
-            className="w-3 h-3 text-sky-600 dark:text-sky-900"
+            className="w-3 h-3 text-sky-900"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -19,16 +19,16 @@ function TimeLineExp() {
           </svg>
         </span>
         <div className="flex gap-2 items-center">
-          <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-200">
             PAYBLUEM PAGO MULTISERVICIOS (PB) S.A.S{" "}
           </h3>
           {" - "}
           <span className="mb-1 text-lg">Desarrollador Front-end</span>
         </div>
-        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
           De Septiembre del 2022 A Diciembre 2022.
         </time>
-        <p className="max-w-custom mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        <p className="max-w-custom mb-4 text-base font-normal text-gray-400">
           Como pasante universitario: Responsable de analizar, diseñar,
           desarrollar y desplegar una plataforma de gestión de torneos de
           taekwondo nacionales. Consolidación en temas: Fetch-API, React JS,
@@ -36,10 +36,10 @@ function TimeLineExp() {
         </p>
       </li>
       <li className="ml-6">
-        <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-sky-600">
+        <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-slate-600 bg-sky-500">
           <svg
             aria-hidden="true"
-            className="w-3 h-3 text-sky-900 dark:text-sky-900"
+            className="w-3 h-3 text-sky-900"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -51,28 +51,28 @@ function TimeLineExp() {
           </svg>
         </span>
         <div className="flex gap-2 items-center">
-          <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+          <h3 className="mb-1 text-lg font-semibold text-gray-200">
             BLUE CONNECTION BY SWC, Bogotá
           </h3>
           {" - "}
           <span className="mb-1 text-lg">Desarrollador Front-end</span>
         </div>
-        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
           De Noviembre del 2021 A Enero 2022
         </time>
-        <p className="max-w-custom text-base font-normal text-gray-500 dark:text-gray-400">
+        <p className="max-w-custom text-base font-normal text-gray-400">
           Responsable del desarrollo y despliegue de una landing-page.
           Consolidación en temas: Hosting, Framework CSS, Comunicación.
         </p>
       </li>
-      <h3 className="mb-1 mt-1 p-2 text-lg font-semibold text-gray-900 dark:text-sky-600">
-        Experiencia en desarrollo
+      <h3 className="mb-1 mt-1 p-2 text-lg font-semibold text-sky-600">
+        Experiencia en desarrollor:
       </h3>
       <li className="ml-6">
-        <span className="absolute flex items-center justify-center w-6 h-6 bg-sky-600 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-sky-600">
+        <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-slate-600 bg-sky-500">
           <svg
             aria-hidden="true"
-            className="w-3 h-3 text-sky-900 dark:text-sky-900"
+            className="w-3 h-3 text-sky-900"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -83,21 +83,21 @@ function TimeLineExp() {
             ></path>
           </svg>
         </span>
-        <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+        <h3 className="mb-1 text-lg font-semibold text-gray-200">
           MAESTRO DE PRODUCTO
         </h3>
-        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">
+        <time className="block mb-2 text-sm font-normal leading-none  text-gray-400">
           De Febrero del 2022 A Junio 2022
         </time>
-        <p className="max-w-custom mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        <p className="max-w-custom mb-4 text-base font-normal text-gray-400">
         Un proyecto de desarrollo investigativo por la institución de educación superior ITFIP Espinal-Tolima. Construcción de  una plataforma Web de sistema maestro de productos.
         </p>
       </li>
       <li className="ml-6">
-        <span className="absolute flex items-center justify-center w-6 h-6 bg-sky-600 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-sky-600">
+        <span className="absolute flex items-center justify-center w-6 h-6 rounded-full -left-3 ring-8 ring-slate-600 bg-sky-500">
           <svg
             aria-hidden="true"
-            className="w-3 h-3 text-sky-900 dark:text-sky-900"
+            className="w-3 h-3 text-sky-900"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -108,13 +108,13 @@ function TimeLineExp() {
             ></path>
           </svg>
         </span>
-        <h3 className="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+        <h3 className="mb-1 text-lg font-semibold text-gray-200">
         SKYMOTION-PROJECT-UdeA
         </h3>
-        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-400">
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
         De Octubre del 2021 A Diciembre del 2021
         </time>
-        <p className="max-w-custom mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        <p className="max-w-custom mb-4 text-base font-normal text-gray-400">
           Proyecto MisionTic 2022 en conjunto con la Universidad de Antioquia de Medellín. Analizar, diseñar y construir una aplicación web que gestione proyectos de investigación.
         </p>
       </li>
