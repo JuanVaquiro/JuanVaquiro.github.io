@@ -30,7 +30,6 @@ function ControlRihgtSwicth() {
           alt="logo-minus-circle"
         />
         <img className="p-9" src={btnsCr} alt="botones-de-control" />
-        <img className="p-8" src={icon} alt="logo" />
         <a
           href="https://drive.google.com/file/d/1d4J8t_tNIJigfqg1MB-zNq3tT1WFC3XR/view?usp=sharing/"
           target="_blank"
