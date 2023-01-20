@@ -26,7 +26,7 @@ const CartProyect = ({ title, img, text, url, repo, top }) => {
         rel="noopener noreferrer"
         type="button"
         id={top}
-        className="z-50 fixed text-sky-700 hover:text-white  border border-sky-700 hover:bg-sky-800 focus:ring-4 focus:outline-none focus:ring-sky-300 font-medium rounded-bl-2xl rounded-b-2xl  text-sm px-1 py-2.5 text-center mr-2 mb-2 dark:border-sky-500 dark:text-sky-400 dark:hover:text-white dark:hover:bg-sky-500 dark:focus:ring-sky-900"
+        className="z-50 fixed border-2 focus:ring-4 focus:outline-none font-medium rounded-bl-2xl rounded-b-2xl  text-sm px-1 py-2.5 text-center mr-2 mb-2 border-sky-600 text-sky-400 hover:text-white hover:bg-sky-500 focus:ring-sky-900"
       >
         <img src={Gitgub} alt="logo github" />
       </a>
