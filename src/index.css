@@ -192,7 +192,7 @@ video{
   background-image: url("./assets/project-capture/question.svg");
 }
 #top1{
-  top: 65px;
+  top: 62px;
 }
 #top2{
   top: 240px;
@@ -201,7 +201,7 @@ video{
  display: contents;
 }
 
-@media (min-height: 700px) {
+@media (min-height: 768px) {
   #top1{
     top: 140px;
   }
