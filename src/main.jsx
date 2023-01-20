@@ -5,6 +5,7 @@ import App from "./App";
 import Proyect from "./pages/proyect";
 import Experience from "./pages/experience";
 import Contact from "./pages/contact";
+import PlayGames from "./pages/playGames";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
@@ -14,6 +15,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/" element={<App />} />
         <Route path="proyecto" element={<Proyect />} />
         <Route path="experiencia" element={<Experience />} />
+        <Route path="juego" element={<PlayGames />} />
         <Route path="contacto" element={<Contact />} />
       </Routes>
     </HashRouter>
