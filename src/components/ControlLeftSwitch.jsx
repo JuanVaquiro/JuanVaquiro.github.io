@@ -26,7 +26,7 @@ const ControlLeftSwitch = () => {
   };
 
   return (
-    <section id={color}>
+    <section id='sky-L'>
       <div className="flex flex-col items-center justify-center">
         <img
           onClick={handleClick}

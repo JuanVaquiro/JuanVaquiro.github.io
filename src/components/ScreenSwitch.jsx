@@ -8,7 +8,7 @@ function ScreenConte() {
       <article className="content p-4">
         <div className="flex flex-col items-center justify-center">
           <div className="flex gap-2">
-            <BtnMedia />
+            <BtnMedia linkedin={'Linkedin'} twitter={"Twitter"} instagram={"instagram"} github={"Github"} />
           </div>
           <h1 className="text-white text-center font-black text-6xl p-2">
             Juan David Vaquiro Diaz
@@ -23,8 +23,7 @@ function ScreenConte() {
             habilidades de programador web con conocimientos en computación y
             soluciones Web.
           </p>
- 
-          </div>
+        </div>
       </article>
     </div>
   );

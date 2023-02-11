@@ -42,17 +42,17 @@ video{
   align-items: center;
 }
 
-#red-L{
+#red-R{
   background-color: #ef4444;
   width: 192px;
   height: 584px;
   border-color: #f87171;
   border-top-width: 4px;
-  border-left-width: 4px;
+  border-right-width: 4px;
   border-bottom-width: 4px;
-  border-top-left-radius: 70px;
-  border-bottom-left-radius: 70px;
-}
+  border-top-right-radius: 70px;
+  border-bottom-right-radius: 70px;
+} 
 #sky-L{
   background-color: #0ea5e9;
   width: 192px;
@@ -64,116 +64,28 @@ video{
   border-top-left-radius: 70px;
   border-bottom-left-radius: 70px;
 }
-#lime-L{
-  background-color: #84cc16;
-  width: 192px;
-  height: 584px;
-  border-color: #a3e635;
-  border-top-width: 4px;
-  border-left-width: 4px;
-  border-bottom-width: 4px;
-  border-top-left-radius: 70px;
-  border-bottom-left-radius: 70px;
-}
-#yellow-L{
-  background-color: #eab308;
-  width: 192px;
-  height: 584px;
-  border-color: #facc15;
-  border-top-width: 4px;
-  border-left-width: 4px;
-  border-bottom-width: 4px;
-  border-top-left-radius: 70px;
-  border-bottom-left-radius: 70px;
-}
-#purple-L{
-  background-color: #a855f7;
-  width: 192px;
-  height: 584px;
-  border-color: #c084fc;
-  border-top-width: 4px;
-  border-left-width: 4px;
-  border-bottom-width: 4px;
-  border-top-left-radius: 70px;
-  border-bottom-left-radius: 70px;
-}
-#slate-L{
-  background-color: #64748b;
-  width: 192px;
-  height: 584px;
-  border-color: #94a3b8;
-  border-top-width: 4px;
-  border-left-width: 4px;
-  border-bottom-width: 4px;
-  border-top-left-radius: 70px;
-  border-bottom-left-radius: 70px;
-}
-#red{
-  background-color: #ef4444;
-  width: 192px;
-  height: 584px;
-  border-color: #f87171;
-  border-top-width: 4px;
-  border-right-width: 4px;
-  border-bottom-width: 4px;
-  border-top-right-radius: 70px;
-  border-bottom-right-radius: 70px;
-}
-#sky{
-  background-color: #0ea5e9;
-  width: 192px;
-  height: 584px;
-  border-color: #38bdf8;
-  border-top-width: 4px;
-  border-right-width: 4px;
-  border-bottom-width: 4px;
-  border-top-right-radius: 70px;
-  border-bottom-right-radius: 70px;
-}
-#lime{
-  background-color: #84cc16;
-  width: 192px;
-  height: 584px;
-  border-color: #a3e635;
-  border-top-width: 4px;
-  border-right-width: 4px;
-  border-bottom-width: 4px;
-  border-top-right-radius: 70px;
-  border-bottom-right-radius: 70px;
-}
-#yellow{
-  background-color: #eab308;
-  width: 192px;
-  height: 584px;
-  border-color: #facc15;
-  border-top-width: 4px;
-  border-right-width: 4px;
-  border-bottom-width: 4px;
-  border-top-right-radius: 70px;
-  border-bottom-right-radius: 70px;
-}
-#purple{
-  background-color: #a855f7;
-  width: 192px;
-  height: 584px;
-  border-color: #c084fc;
-  border-top-width: 4px;
-  border-right-width: 4px;
-  border-bottom-width: 4px;
-  border-top-right-radius: 70px;
-  border-bottom-right-radius: 70px;
-}
-#slate{
-  background-color: #64748b; 
-  width: 192px;
-  height: 584px;
-  border-color: #94a3b8;
-  border-top-width: 4px;
-  border-right-width: 4px;
-  border-bottom-width: 4px;
-  border-top-right-radius: 70px;
-  border-bottom-right-radius: 70px;
-}
+
+/* responsi 1920x1080 */
+/* @media (min-width: 1280px) { 
+  #sky-L, #red-R {
+    width: 164px;
+    height: 540px;
+  }
+  .screen-conter {
+    width: 890px;
+    height: 540px;
+  }
+ } */
+@media (min-width: 1536px) { 
+  #sky-L, #red-R {
+    width: 200px;
+    height: 684px;
+  }
+  .screen-conter {
+    width: 1080px;
+    height: 684px;
+  }
+ }
 
 /* cart-project */
 #GifApp{

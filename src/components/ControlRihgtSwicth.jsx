@@ -1,6 +1,5 @@
 import { useState } from "react";
 import Plus from "../assets/controll/plus-circle.svg";
-import icon from "../assets/icon.svg";
 import btnsCr from "../assets/controll/btns-cR.png";
 import JoystickControll from "./Joystick";
 
@@ -22,7 +21,7 @@ function ControlRihgtSwicth() {
   };
 
   return (
-    <section id={color}>
+    <section id='red-R'>
       <div className="flex flex-col items-center justify-center">
         <img
           onClick={handleClick}
@@ -37,7 +36,7 @@ function ControlRihgtSwicth() {
         target="_blank"
         className="my-4 relative inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium rounded-lg group bg-gradient-to-br from-gray-800 to-gray-900 group-hover:from-cyan-500 group-hover:to-blue-500 hover:text-white text-white focus:ring-4 focus:outline-none focus:ring-cyan-800"
         >
-        <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0">
+        <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-900 rounded-md group-hover:bg-opacity-0">
       Ver Curriculum
     </span>
         </a>
