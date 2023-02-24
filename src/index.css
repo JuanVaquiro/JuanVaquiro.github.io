@@ -78,12 +78,12 @@ video{
  } */
 @media (min-width: 1536px) { 
   #sky-L, #red-R {
-    width: 200px;
-    height: 684px;
+    width: 224px;
+    height: 800px;
   }
   .screen-conter {
-    width: 1080px;
-    height: 684px;
+    width: 1338px;
+    height: 800px;
   }
  }
 
@@ -104,10 +104,10 @@ video{
   background-image: url("./assets/project-capture/question.svg");
 }
 #top1{
-  top: 62px;
+  top: 60px;
 }
 #top2{
-  top: 240px;
+  top: 236px;
 }
 #top3{
  display: contents;
@@ -121,6 +121,16 @@ video{
     top: 314px;
   }
 }
+
+@media (min-width: 1536px) {
+  #top1{
+    top: 108px;
+  }
+  #top2{
+    top: 338px;
+  }
+}
+
 
 
 /* text witch page-experince */

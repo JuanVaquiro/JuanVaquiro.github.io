@@ -19,16 +19,16 @@ function TimeLineExp() {
           </svg>
         </span>
         <div className="flex gap-2 items-center">
-          <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-200">
+          <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-200 2xl:text-xl">
             PAYBLUEM PAGO MULTISERVICIOS (PB) S.A.S{" "}
           </h3>
           {" - "}
-          <span className="mb-1 text-lg">Desarrollador Front-end</span>
+          <span className="mb-1 text-lg  2xl:text-xl">Desarrollador Front-end</span>
         </div>
-        <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400  2xl:text-base">
           De Septiembre del 2022 A Diciembre 2022.
         </time>
-        <p className="max-w-custom mb-4 text-base font-normal text-gray-400">
+        <p className="max-w-custom mb-4 text-base font-normal text-gray-400 2xl:text-lg">
           Como pasante universitario: Responsable de analizar, diseñar,
           desarrollar y desplegar una plataforma de gestión de torneos de
           taekwondo nacionales. Consolidación en temas: Fetch-API, React JS,
@@ -51,16 +51,16 @@ function TimeLineExp() {
           </svg>
         </span>
         <div className="flex gap-2 items-center">
-          <h3 className="mb-1 text-lg font-semibold text-gray-200">
+          <h3 className="mb-1 text-lg font-semibold text-gray-200 2xl:text-xl">
             BLUE CONNECTION BY SWC, Bogotá
           </h3>
           {" - "}
           <span className="mb-1 text-lg">Desarrollador Front-end</span>
         </div>
-        <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 2xl:text-base">
           De Noviembre del 2021 A Enero 2022
         </time>
-        <p className="max-w-custom text-base font-normal text-gray-400">
+        <p className="max-w-custom text-base font-normal text-gray-400 2xl:text-lg">
           Responsable del desarrollo y despliegue de una landing-page.
           Consolidación en temas: Hosting, Framework CSS, Comunicación.
         </p>
@@ -83,13 +83,13 @@ function TimeLineExp() {
             ></path>
           </svg>
         </span>
-        <h3 className="mb-1 text-lg font-semibold text-gray-200">
+        <h3 className="mb-1 text-lg font-semibold text-gray-200 2xl:text-xl">
           MAESTRO DE PRODUCTO
         </h3>
-        <time className="block mb-2 text-sm font-normal leading-none  text-gray-400">
+        <time className="block mb-2 text-sm font-normal leading-none  text-gray-400 2xl:text-base">
           De Febrero del 2022 A Junio 2022
         </time>
-        <p className="max-w-custom mb-4 text-base font-normal text-gray-400">
+        <p className="max-w-custom mb-4 text-base font-normal text-gray-400 2xl:text-lg">
         Un proyecto de desarrollo investigativo por la institución de educación superior ITFIP Espinal-Tolima. Construcción de  una plataforma Web de sistema maestro de productos.
         </p>
       </li>
@@ -108,13 +108,13 @@ function TimeLineExp() {
             ></path>
           </svg>
         </span>
-        <h3 className="mb-1 text-lg font-semibold text-gray-200">
+        <h3 className="mb-1 text-lg font-semibold text-gray-200 2xl:text-xl">
         SKYMOTION-PROJECT-UdeA
         </h3>
-        <time className="block mb-2 text-sm font-normal leading-none text-gray-400">
+        <time className="block mb-2 text-sm font-normal leading-none text-gray-400 2xl:text-base">
         De Octubre del 2021 A Diciembre del 2021
         </time>
-        <p className="max-w-custom mb-4 text-base font-normal text-gray-400">
+        <p className="max-w-custom mb-4 text-base font-normal text-gray-400 2xl:text-lg">
           Proyecto MisionTic 2022 en conjunto con la Universidad de Antioquia de Medellín. Analizar, diseñar y construir una aplicación web que gestione proyectos de investigación.
         </p>
       </li>

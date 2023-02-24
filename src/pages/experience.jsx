@@ -9,7 +9,7 @@ function Experience() {
       <div className="flex flex-row items-center justify-center p-2">
         <ControlLeftSwitch />
         <div className="screen-conter rounded-md border-double border-8 border-gray-500">
-          <article className="my-7 px-6">
+          <article className="my-7 px-8">
             <TimeLineExp />
             <Burbujas />
           </article>
