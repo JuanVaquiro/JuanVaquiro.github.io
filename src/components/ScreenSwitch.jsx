@@ -17,9 +17,8 @@ function ScreenConte() {
             Front-end Developer Web Junior
           </span>
           <p className="text-lg text-center p-2 max-w-prose">
-            Tecnólogo en Gestión Informática con un año de experiencia en la elaboración de proyectos educativos de aplicaciones web,
-            destacando en la investigación, análisis y desarrollo de software. Hábil programador web con conocimientos en computación 
-            y soluciones web, comprometido en compartir y aplicar mis habilidades para resolver problemas.
+            Tecnólogo en Gestión Informática con un año de experiencia en la elaboración de proyectos educativos de aplicaciones web,destacando en la investigación, análisis y desarrollo de software. Hábil programador web 
+            con conocimientos en computación y soluciones web.
           </p>
         </div>
       </article>
