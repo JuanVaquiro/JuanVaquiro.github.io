@@ -31,18 +31,6 @@ const BtnMedia = ({linkedin, twitter, instagram, github}) => {
         <img src={Twitter} alt="logo-twitter" />
           {twitter}
       </a>
-
-      <a
-        href="https://www.instagram.com/david_vaquirox/"
-        target="_blank"
-        rel="noopener noreferrer"
-        type="button"
-        className="flex gap-2 border focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 border-red-400 text-red-400 hover:text-white hover:bg-orange-500 focus:ring-orange-900"
-      >
-        <img src={Instagram} alt="logo-instagram" />
-        {instagram}
-      </a>
-
       <a
         href="https://github.com/JuanVaquiro"
         target="_blank"
