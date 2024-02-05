@@ -34,7 +34,7 @@
       "url": "https://www.ezrealstudios.com/",
       "startDate": "2023-4-11",
       "endDate": "2023-5-22",
-      "summary": "Responsable de: Diseñar e implementar una landing page para promocionar la empresa. Crearcion interfaces atractivas y contenido relevante. Herramientas de desarrollo: React.js, TailwindCSS, HTML.",
+      "summary": "Responsable de diseñar e implementar una landing page para promocionar la empresa. Crearcion interfaces atractivas y contenido relevante. Herramientas de desarrollo: React.js, TailwindCSS, HTML.",
       "highlights": [
         "Started the company"
       ]
@@ -68,7 +68,7 @@
     {
       "institution": "Instituto Tolimense de Formación Técnica Profesional",
       "url": "https://itfip.edu.co/",
-      "area": "Ingeniero de Software",
+      "area": "Ingeniero de Sistemas",
       "studyType": "Bachelor",
       "startDate": "2018-7-15",
       "endDate": "2023-9-18",
@@ -240,66 +240,46 @@
   ],
   "projects": [
     {
-      "name": "mars.codes",
+      "name": "Word Game Clon",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "En este proyecto, cumplos los retos propuestos para recreaar el popular juego de palabras en línea, Wordle",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Juego",
+        "Reto de Competencia"
       ],
-      "url": "https://mars.codes"
+      "url": "https://github.com/JuanVaquiro/word-clone"
     },
     {
-      "name": "AdventJS",
+      "name": "Piramides Comunisoft",
       "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
+      "description": "Plataforma web de gestión de torneos y campeonatos de taekwondo a nivel departamental",
       "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
+        "+1 mil vistas",
+        "Producto deportivo departamental",
         "JavaScript & TypeScript"
       ],
-      "url": "https://advent.js/dev"
+      "url": "https://piramides.comunisoft.com"
     },
     {
-      "name": "Codember",
+      "name": "Prueba Técnica Frontend",
       "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "description": "Realize una prueba tecnica siguiendo los recpectivos diseños en Figma para plasmar lo que 'deseaba el cliente' ",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "Prueba Ingenuity",
+        "Reto de Competencia"
       ],
-      "url": "https://codember.dev"
+      "url": "https://juanvaquiro.github.io/Frontend-developer-Ingenuity-Solutions/"
     },
     {
-      "name": "codi.link",
+      "name": "Skylab-UdeA",
       "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
+      "description": "Con la Universidad de Antioquia, simulamos la construcción de una aplicación web para gestionar las ventas virtuales de una empresa de manufactura, con un equipo de 5 personas",
       "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
+        "Simular",
+        "Aprendizaje conjunto"
       ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
+      "url": "https://github.com/JuanVaquiro/Skylab-Project-UdeA-2022",
+      "github": "https://github.com/JuanVaquiro/Skylab-Project-UdeA-2022"
     }
   ]
 }
